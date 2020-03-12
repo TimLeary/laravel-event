@@ -7,6 +7,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: laravel
     ports:
       - 3306:3306
     networks:
@@ -26,6 +27,7 @@ services:
       DB_DATABASE: laravel
       DB_USERNAME: root
       DB_PASSWORD: example
+      DB_HOST: mysql
     networks:
       - levent
 
