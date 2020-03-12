@@ -22,3 +22,12 @@ then run:
 it creates `users` `migrations` `password_resets` and `failed_jobs`
 
 #####Create registration
+At `src/l-event`
+
+`php composer.phar require laravel/ui ^1.0`
+
+`php artisan ui --help`
+
+`php artisan ui bootstrap --auth`
+
+`npm install && npm run dev`

@@ -28,6 +28,7 @@ services:
       DB_USERNAME: root
       DB_PASSWORD: example
       DB_HOST: mysql
+      APP_URL: http://localhost:8080
     networks:
       - levent
 
