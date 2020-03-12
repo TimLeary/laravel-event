@@ -2,6 +2,9 @@ FROM php:7.4-apache
 
 WORKDIR /srv/app
 ENV APACHE_DOCUMENT_ROOT /srv/app/public
+
+RUN a2enmod rewrite
+
 COPY dockers/php/vhost.conf /etc/apache2/sites-available/000-default.conf
 
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
