@@ -19,4 +19,6 @@ environment:
 ```
 then run:
 `docker-compose exec php php artisan migrate`
-it creates `users` `migrations` and `failed_jobs`
+it creates `users` `migrations` `password_resets` and `failed_jobs`
+
+#####Create registration
