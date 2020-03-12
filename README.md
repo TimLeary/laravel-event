@@ -21,9 +21,4 @@ then run:
 `docker-compose exec php php artisan migrate`
 it creates `users` `migrations` `password_resets` and `failed_jobs`
 
-#####Create controller for views
-`php ../../../composer.phar require laravel/ui ^1.0`
-
-`php artisan ui vue --auth`
-
-`npm install && npm run dev`
+#####Create registration
